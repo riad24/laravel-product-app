@@ -28879,3 +28879,9 @@ a.text-dark:focus {
   border-color: #5897fb;
 }
 
+
+.image-rounded-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}

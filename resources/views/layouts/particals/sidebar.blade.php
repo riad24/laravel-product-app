@@ -25,6 +25,12 @@
         {{ __('Interface') }}
     </div>
 
+    <li class="nav-item {{ Request::is('product/*') || Request::is('product')   ? 'active' : '' }}">
+        <a class="nav-link" href="{{ route('product.index') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>{{ __('Product') }}</span></a>
+    </li>
+
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 
